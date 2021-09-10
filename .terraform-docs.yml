@@ -3,9 +3,9 @@ version: '>= 0.14.0'
 formatter: markdown table
 
 content: |-
-  [![Tests](https://github.com/netascode/terraform-nxos-scaffolding/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-nxos-scaffolding/actions/workflows/test.yml)
+  [![Tests](https://github.com/netascode/terraform-nxos-ethernet-interface/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-nxos-ethernet-interface/actions/workflows/test.yml)
 
-  # Terraform NXOS Scaffolding Module
+  # Terraform NXOS Ethernet Interface Module
 
   Description
 

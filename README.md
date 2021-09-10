@@ -1,7 +1,7 @@
 <!-- BEGIN_TF_DOCS -->
-[![Tests](https://github.com/netascode/terraform-nxos-scaffolding/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-nxos-scaffolding/actions/workflows/test.yml)
+[![Tests](https://github.com/netascode/terraform-nxos-ethernet-interface/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-nxos-ethernet-interface/actions/workflows/test.yml)
 
-# Terraform NXOS Scaffolding Module
+# Terraform NXOS Ethernet Interface Module
 
 Description
 
@@ -10,8 +10,8 @@ Model Documentation: [Link](https://developer.cisco.com/docs/cisco-nexus-3000-an
 ## Examples
 
 ```hcl
-module "nxos_scaffolding" {
-  source = "netascode/scaffolding/nxos"
+module "nxos_ethernet_interface" {
+  source = "netascode/ethernet-interface/nxos"
 
   id          = "eth1/10"
   description = "My Description"

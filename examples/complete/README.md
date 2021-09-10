@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-# Scaffolding Example
+# Ethernet Interface Example
 
 To run this example you need to execute:
 
@@ -12,8 +12,8 @@ $ terraform apply
 Note that this example will create resources. Resources can be destroyed with `terraform destroy`.
 
 ```hcl
-module "nxos_scaffolding" {
-  source = "netascode/scaffolding/nxos"
+module "nxos_ethernet_interface" {
+  source = "netascode/ethernet-interface/nxos"
 
   id          = "eth1/10"
   description = "My Description"
